@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <div class="name">spli<br>tter</div>
+  <div class="main">
+    <div class="cal">
+        <div class="cal_bill">
+          <div class="sub-title">
+            Bill
+          </div>
+          <div class="insert">
+            <img src="images/icon-dollar.svg" alt="" class="icon">
+            <input type="number" class="bill">
+          </div>
+        </div>
+        <div class="cal_select">
+          <div class="sub-title">
+            Select Tip %
+          </div>
+          <div class="selection">
+            <div class="selection_items active">5%</div>
+            <div class="selection_items">10%</div>
+            <div class="selection_items">15%</div>
+            <div class="selection_items">25%</div>
+            <div class="selection_items">50%</div>
+            <div class="selection_items--none">Custom</div>
+          </div>
+        </div>
+        <div class="cal_people">
+          <div class="sub-title">
+            Number of People
+          </div>
+          <div class="insert">
+            <img src="images/icon-person.svg" alt="" class="icon">
+            <input type="number" class="people">
+          </div>
+        </div>
+    </div>
+    <div class="visual">
+      <div class="visual_items">
+        <div class="statics-text">
+          <div class="text-big">
+            Tip Amount
+          </div>
+          <div class="text-small">
+            / person
+          </div>
+        </div>
+        <div class="statics-number">
+          $ <span class="tip-number">0.00</span>
+        </div>  
+      </div>
+      <div class="visual_items">
+        <div class="statics-text">
+          <div class="text-big">
+            Total
+          </div>
+          <div class="text-small">
+            / person
+          </div>
+        </div>
+        <div class="statics-number">
+          $ <span class="total-number">0.00</span>
+        </div> 
+      </div>
+      <div class="visual-btn">
+        Reset
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+ 
+</body>
+</html>
